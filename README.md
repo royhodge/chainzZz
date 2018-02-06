@@ -1,4 +1,4 @@
-﻿ChainzZz (AKA YobiChain 2.0)
+﻿ChainzZz (AKA YobiChain 2.0-alpha-2)
 =========
 
 > WARNING: chainzZz is intended for experimenting and learning, NOT for a production environment.
@@ -9,18 +9,10 @@ ChainzZz is your very own private Blockchain as a Service.
 We wanted the ecosystem that YobiChain provided but with the options of choosing which services we wanted with a blockchain, and we figured people may want to have us run the blockchains for them as well, hence, Blockchain as a Service. 
 The idea is simple, a website, that let’s you choose your blockchain parameters, and applications to go with it, and then you name the native currency on it, if you choose to have one, then we run it on our servers for you. All you have to do is login to your dashboard and check out the stats. The plan is to make it easy to manage your blockchain node’s using a modified version of MultiChain’s web-demo that is locked down and more secure then the open version they have given us to start with. 
 
-(possibly pre-loaded with development tools, database, web & FTP servers and the following 4 blockchain applications:)
-
-1. HashChain, a simple blockchain powered drag n drop solution for authenticating and verifying electronic records.
-
-2. Vault, a simple blockchain powered document storage and retrieval system.
-
-3. Contracts, a simple blockchain powered system for digitally signng contracts.
-
-4. WebWallet, a simple blockchain powered wallet for Yobicoins, a smart asset.
+1. Wallet, a simple blockchain powered wallet for Yourcoins, a smart asset.
 
  
-This version of chainzZz runs on [Multichain 2.0](https://github.com/MultiChain).
+This version of chainzZz runs on [Multichain 2.0-alpha-2](https://github.com/MultiChain).
 
 ChainzZz is ideal for
 
@@ -33,7 +25,7 @@ System Requirements
 -------------------
 
 To set up chainzZz, you will need 1 server (min 2 GB RAM, 2 CPUs) 
-running Ubuntu 16.04.3 x64 and php 7.0. 
+running Ubuntu 17.10 x64 and php 7.1 
 
 
 Installation
@@ -44,7 +36,7 @@ This section presumes that you have root access to the server mentioned above an
 **Step 1.** Install git and clone the chainzZz repository
 
     sudo apt-get install git
-    sudo git clone https://github.com/unibitlabs/chainzZz.git
+    sudo git clone https://github.com/royhodge/chainzZz.git
 
 **Step 2.** Harden the base operating system (Ubuntu 16.04.3 x64). This will also create a new user called [yobiuser] with the password entered by you below.
 
@@ -68,13 +60,6 @@ If you get a "locale error" using Terminal on mac, go to Terminal -> Preferences
 *To access Multichain web-demo, visit `http://<IP Address>/multichain-web-demo`
 
 *To access Multichain Exporer, visit `http://<IP Address>:2750`
-
-**To use hashchain, see the instructions at [https://github.com/Primechain/hashchain/blob/master/README.md](https://github.com/Primechain/hashchain/blob/master/README.md)
-
-**To use Vault, see the instructions at [https://github.com/Primechain/yobiapps/blob/master/README.md#primevault](https://github.com/Primechain/yobiapps/blob/master/README.md#primevault)
-
-**To use Contracts, see the instructions at [https://github.com/Primechain/yobiapps/blob/master/README.md#primecontract](https://github.com/Primechain/yobiapps/blob/master/README.md#primecontract)
-
 
 **To use WebWallet, see the instructions at [https://github.com/Primechain/yobiapps/blob/master/README.md#yobiwallet](https://github.com/Primechain/yobiapps/blob/master/README.md#yobiwallet)
 
@@ -113,19 +98,9 @@ Live demo → Update these upon completion & sucessfully running services!
 
 * To access a live Multichain Exporer, visit http://52.172.209.229:2750
 
-* To authenticate a file using hashchain, visit http://52.172.209.229/hashchain/hashchain_authenticator.php 
-and to verify a file using hashchain, visit http://52.172.209.229/hashchain/
-
-* To access the yobiapps, visit: http://52.172.209.229/yobiapps
+* To access the apps, visit: http://52.172.209.229/apps
 
 
-Planned roadmap
------
-+ ~~[ ] Installation of PrimeVault~~ **done**
-+ ~~[ ] Installation of PrimeContract~~ **done**
-+ ~~[ ] Installation of YobiWallet~~ **done**
-+ ~~[ ] Upgrade MultiChain to Version 2.0~~ **done** → Review Changelog*
-+ ~~[ ] Installation of YourFeature~~ COMING NEXT
 
 
 Originall Forked From Primechain Technologies, :thumbsup:
