@@ -3,7 +3,7 @@
 
 > WARNING: chainzZz is intended for experimenting and learning, NOT for a production environment.
 
-![Image of chainzZz](http://www.unibit.io/img/chainzZz.png)
+![Image of chainzZz](https://image.ibb.co/bW18Fo/chainz_logo_small.jpg)
 
 ChainzZz is your very own private Blockchain as a Service.
 We wanted the ecosystem that YobiChain provided but with the options of choosing which services we wanted with a blockchain, and we figured people may want to have us run the blockchains for them as well, hence, Blockchain as a Service. 
