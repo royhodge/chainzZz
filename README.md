@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://image.ibb.co/bW18Fo/chainz_logo_small.jpg" width="256" title="Github Logo">
+  <img src="https://image.ibb.co/bW18Fo/chainz_logo_small.jpg" width="150" title="ChainzZz Logo">
 </p>
 
 ChainzZz (AKA YobiChain 2.0)
