@@ -1,10 +1,10 @@
 <p align="center">
   <img src="https://image.ibb.co/bW18Fo/chainz_logo_small.jpg" width="150" title="ChainzZz Logo">
-</p>
+
 
 ChainzZz (AKA YobiChain 2.0)
 =========
-
+</p>
 > WARNING: chainzZz is intended for experimenting and learning, NOT for a production environment.
 
 ![Image of chainzZz](https://image.ibb.co/bW18Fo/chainz_logo_small.jpg)
