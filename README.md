@@ -1,4 +1,8 @@
-﻿ChainzZz (AKA YobiChain 2.0)
+<p align="center">
+  <img src="https://image.ibb.co/bW18Fo/chainz_logo_small.jpg" width="256" title="Github Logo">
+</p>
+
+ChainzZz (AKA YobiChain 2.0)
 =========
 
 > WARNING: chainzZz is intended for experimenting and learning, NOT for a production environment.
