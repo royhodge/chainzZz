@@ -53,7 +53,7 @@ This section presumes that you have root access to the server mentioned above an
     sudo apt-get install git
     sudo git clone https://github.com/unibitlabs/chainzZz.git
 
-**Step 2.** Harden the base operating system (Ubuntu 16.04.3 x64). This will also create a new user called [yobiuser] with the password entered by you below.
+**Step 2.** Harden the base operating system (Ubuntu 16.04.3 x64). This will also create a new user called [youruser] with the password entered by you below.
 
     cd chainzZz
     sudo bash -e hardening.sh <password>
@@ -81,7 +81,6 @@ If you get a "locale error" using Terminal on mac, go to Terminal -> Preferences
 **To use Vault, see the instructions at [https://github.com/Primechain/yobiapps/blob/master/README.md#primevault](https://github.com/Primechain/yobiapps/blob/master/README.md#primevault)
 
 **To use Contracts, see the instructions at [https://github.com/Primechain/yobiapps/blob/master/README.md#primecontract](https://github.com/Primechain/yobiapps/blob/master/README.md#primecontract)
-
 
 **To use WebWallet, see the instructions at [https://github.com/Primechain/yobiapps/blob/master/README.md#yobiwallet](https://github.com/Primechain/yobiapps/blob/master/README.md#yobiwallet)
 
